@@ -8,11 +8,10 @@ const TextForm = (props) => {
   }
 
   const handleOnChange = (event) => {
-    console.log('onChange');
     setText(event.target.value)
   }
 
-  const [text , setText] = useState('Enter text Here!')
+  const [text , setText] = useState('')
   return (
     <div>
         <div className="my-3 container">
